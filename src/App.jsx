@@ -1,10 +1,12 @@
 import React from 'react'
+import Home from './pages/Home'
+import Nav from './components/Nav'
 
 const App = () => {
   return (
     <div>
-      <h2 className='text-5xl'>App</h2>
-      <button className='btn btn-primary'>Click me</button>
+      <Nav/>
+      <Home/>
     </div>
   )
 }
